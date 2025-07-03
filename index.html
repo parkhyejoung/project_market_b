@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marketB</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/index.js"></script>
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div class="wrap">
@@ -129,20 +138,334 @@
                 </div> 
                 <div class="product_wrap2">
                     <div class="product">
-                        <img src="./images/pro_005.png" alt="마켓비 JAWAL 베드 트레이 대나무 4171.9449">
-                        <h3>마켓비 JAWAL 베드 트레이 대나무 4171.9449</h3>
-                        <p class="price_before"><del>735,000</del></p>
-                        <span class="percent">25%</span>
-                        <span class="price_after">554,000원</span>
+                        <img src="./images/pro_005.png" alt="마켓비 JAWAL 2단 선반행거 대나무 70140 사다리형">
+                        <h3>마켓비 JAWAL 2단 선반행거 대나무 70140 사다리형</h3>
+                        <p class="price_before"><del>129,000</del></p>
+                        <span class="percent">61%</span>
+                        <span class="price_after">50,000원</span>
                         <div class="review">
                             <img src="./images/kid_star.png" alt="별점">
                             <span>4.8</span>
-                            <span>(1,577)</span>
+                            <span>(780)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_006.png" alt="마켓비 레탄토 3단 수납장 SHM18058">
+                        <h3>마켓비 레탄토 3단 수납장 SHM18058</h3>
+                        <p class="price_before"><del>30,9000</del></p>
+                        <span class="percent">41%</span>
+                        <span class="price_after">181,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.6</span>
+                            <span>(1,157)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_007.png" alt="마켓비 ROTANG 펜던트등갓 D45">
+                        <h3>마켓비 ROTANG 펜던트등갓 D45</h3>
+                        <p class="price_before"><del>82,000</del></p>
+                        <span class="percent">30%</span>
+                        <span class="price_after">52,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.7</span>
+                            <span>(968)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_008.png" alt="핸드메이드푸프 사각 40x20 BJP14">
+                        <h3>핸드메이드푸프 사각 40x20 BJP14</h3>
+                        <p class="price_before"><del>65,000</del></p>
+                        <span class="percent">18%</span>
+                        <span class="price_after">43,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.8</span>
+                            <span>(541)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_wrap3">
+                    <div class="product">
+                        <img src="./images/pro_009.png" alt="마켓비 PIGO 선반 900 2단 블랙">
+                        <h3>마켓비 PIGO 선반 900 2단 블랙</h3>
+                        <p class="price_before"><del>89,900</del></p>
+                        <span class="percent">41%</span>
+                        <span class="price_after">49,900원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.6</span>
+                            <span>(1,157)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_010.png" alt="이지보 툴프리 800 선반 3단 리베라오크">
+                        <h3>이지보 툴프리 800 선반 3단 리베라오크</h3>
+                        <p class="price_before"><del>65,000</del></p>
+                        <span class="percent">18%</span>
+                        <span class="price_after">43,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.8</span>
+                            <span>(541)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_011.png" alt="마켓비 필몬 협탁 3865 STB M6538">
+                        <h3>마켓비 필몬 협탁 3865 STB M6538</h3>
+                        <p class="price_before"><del>82,000</del></p>
+                        <span class="percent">30%</span>
+                        <span class="price_after">52,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.7</span>
+                            <span>(968)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_012.png" alt="마켓비 비나트 콘솔테이블 캄포어베니어">
+                        <h3>마켓비 비나트 콘솔테이블 캄포어베니어</h3>
+                        <p class="price_before"><del>105,000</del></p>
+                        <span class="percent">18%</span>
+                        <span class="price_after">43,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.8</span>
+                            <span>(541)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_wrap4">
+                    <div class="product">
+                        <img src="./images/pro_013.png" alt="마켓비 원목스텝스툴모음 (HAN/BEKJE)">
+                        <h3>마켓비 원목스텝스툴모음 (HAN/BEKJE)</h3>
+                        <p class="price_before"><del>129,000</del></p>
+                        <span class="percent">61%</span>
+                        <span class="price_after">90,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.8</span>
+                            <span>(780)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_014.png" alt="마켓비 JAWAL 선반 600 넓은 3단 대나무">
+                        <h3>마켓비 JAWAL 선반 600 넓은 3단 대나무</h3>
+                        <p class="price_before"><del>85,000</del></p>
+                        <span class="percent">41%</span>
+                        <span class="price_after">41,300원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.6</span>
+                            <span>(1,157)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_015.png" alt="마켓비 겟우드 수납침대 싱글 100200 N형">
+                        <h3>마켓비 겟우드 수납침대 싱글 100200 N형</h3>
+                        <p class="price_before"><del>30,0000</del></p>
+                        <span class="percent">30%</span>
+                        <span class="price_after">17,0000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.7</span>
+                            <span>(968)</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="./images/pro_016.png" alt="마켓비 몬탁 벽선반 SHM15040">
+                        <h3>마켓비 몬탁 벽선반 SHM15040</h3>
+                        <p class="price_before"><del>65,000</del></p>
+                        <span class="percent">8%</span>
+                        <span class="price_after">79,000원</span>
+                        <div class="review">
+                            <img src="./images/kid_star.png" alt="별점">
+                            <span>4.8</span>
+                            <span>(541)</span>
                         </div>
                     </div>
                 </div>
             </div>
+            <section class="recommend_zone">
+                <div class="recommend_title">
+                    <ul class="tap">
+                        <li>
+                            <a href="#">BEST ITEM</a>
+                            <ul>
+                                <li><a href="#">침실</a></li>
+                                <li><a href="#">거실</a></li>
+                                <li><a href="#">주방/다이닝</a></li>
+                                <li><a href="#">드레스룸</a></li>
+                                <li><a href="#">스터디방</a></li>
+                                <li><a href="#">하우스/데코</a></li>
+                                <li><a href="#">아이방</a></li>
+                                <li><a href="#">홈오피스</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">NEW ITEM</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper container_wrap">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/bpro_001.png" alt="[특가~6/16 AM10]엠마 컴포트 천연가죽 소파 3인(3종/택1)">
+                            <h3>[특가~6/16 AM10]엠마 컴포트 천연가죽 소파 3인(3종/택1)</h3>
+                            <span class="percent">25%</span>
+                            <p class="price_before"><del>1,367,000원</del></p>
+                            <span class="price_after">79,000원</span>
+                            <div class="review">
+                                <img src="./images/kid_star.png" alt="별점">
+                                <span>4.9</span>
+                                <span>(644)</span>
+                            </div>
+                            <div class="coupon">
+                                <span>무료배송</span>
+                                <span>할인쿠폰</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="swiper-slide">
+                            <img src="./images/bpro_002.png" alt="뉴키즈 수납장 1305 하프앤하프">
+                            <h3>뉴키즈 수납장 1305 하프앤하프</h3>
+                            <span class="percent">30%</span>
+                            <p class="price_before"><del>227,000원</del></p>
+                            <span class="price_after">159,900원</span>
+                            <div class="review">
+                                <img src="./images/kid_star.png" alt="별점">
+                                <span>4.8</span>
+                                <span>(587)</span>
+                            </div>
+                            <div class="coupon">
+                                <span>무료배송</span>
+                                <span>할인쿠폰</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/bpro_003.png" alt="바이엘 채널 옷장 화이트 90/100cm(높이216cm)">
+                            <h3>바이엘 채널 옷장 화이트 90/100cm(높이216cm)</h3>
+                            <span class="percent">20%</span>
+                            <p class="price_before"><del>321,000원</del></p>
+                            <span class="price_after">256,800원</span>
+                            <div class="review">
+                                <img src="./images/kid_star.png" alt="별점">
+                                <span>4.8</span>
+                                <span>(287)</span>
+                            </div>
+                            <div class="coupon">
+                                <span>무료배송</span>
+                                <span>할인쿠폰</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </section>
+            <div class="ad_banner">
+                <img src="./images/adbanner.png" alt="여름행사">
+            </div>
+            <section class="summer_event">
+                <div class="ad1">
+                    <a href="#">
+                        <img src="./images/summer_br_001.png" alt="여름이불행사">
+                        <p>덮는 순간 느껴지는 산뜻한 시원함</p>
+                        <p>무더운 여름밤을 쾌적하게 지켜주는 여름이불</p>
+                    </a>
+                </div>
+                <div class="ad2">
+                    <a href="#">
+                        <img src="./images/summer_br_002.png" alt="여름베개행사">
+                        <p>머리를 대는 순간 번지는 시원함</p>
+                        <p>무더운 밤, 쾌적함을 선물하는 여름베개</p>
+                    </a>
+                </div>
+                <div class="ad3">
+                    <a href="#">
+                        <img src="./images/summer_br_003.png" alt="여름매트리스행사">
+                        <p>열대야도 두렵지 않은 산뜻한 시원함</p>
+                        <p>한여름 밤을 지켜주는 쿨 매트리스</p>
+                    </a>
+                </div>
+            </section>
+            <section class="myhome">
+                <h3>마켓비 가구로 꾸민 우리집</h3>
+                <div class="myhome_grid">
+                    <div class="item1">
+                        <img src="./images/d1_bg.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_on.png" alt="">    
+                        <img src="./images/hover_msg.png" alt="">
+                    </div>
+                    <div class="item2">
+                        <img src="./images/d2_bg.png" alt="">
+                        <p>우리집을 더 감성있게</p>
+                        <p>인기 감성 인테리어 제품 </p>
+                    </div>
+                    <div class="item3">
+                        <img src="./images/d3_bg.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                    </div>
+                    <div class="item4">
+                        <img src="./images/d4_bg.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                    </div>
+                    <div class="item5">
+                        <img src="./images/d5_bg.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                        <img src="./images/hover_off.png" alt="">
+                    </div>
+                </div>
+            </section>
         </main>
+        <footer>
+            <div class="zone1">
+                <em>MARKETB</em>
+                <p>(주)마켓비</p>
+                <p>경기도 파주시 책향기로 836 아름타워 8층</p>
+                <p>대표 이사 : 남지현 팩스1 031-949-6654 팩스2 070-4855-3088</p>
+                <p>사업자등록번호 : 141-81-15759 통신판매업신고 : 2009-경기파주-1943호 <a href="#">[사업자정보확인]</a></p>
+                <p>개인정보보호책임자 이효정 marketb@nate.com 호스팅 제공자 : 카페24(주)</p>
+                <p>COPYRIGHT ⓒ MARKETB ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="zone2">
+                <em>매장안내</em>
+                <a href="#">대량/제휴문의</a>
+                <a href="#">대리점/위탁 모집</a>
+                <a href="#">회사소개</a>
+                <a href="#">공지사항</a>
+                <a href="#">이용약관</a>
+                <a href="#">품질보증기준</a>
+                <a href="#">개인정보처리방침</a>
+            </div>
+            <div class="zone3">
+                <em>회사소개</em>
+                <a href="#">공지사항</a>
+                <a href="#">이용약관</a>
+                <a href="#">품질보증기준</a>
+                <a href="#">개인정보처리방침</a>
+            </div>
+            <div class="zone4">
+                <em>입금계좌정보</em>
+                <p>우리 1005-001-490651</p>
+                <p>신한 100-025-316371</p>
+                <p>농협 355-0001-8878-93</p>
+                <p>하나 736-910012-19704</p>
+                <p>(주)마켓비</p>
+            </div>
+            <div class="zone5">
+                <em>고객센터</em>
+                <em>031 943 8307</em>
+                <p>평일 09:00 ~ 17:30 [토,일,공휴일 제외]</p>
+                <p>점심시간 12:30 ~ 13:30</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
