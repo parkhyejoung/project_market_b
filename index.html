@@ -17,16 +17,17 @@
 <body>
     <div class="wrap">
         <header>
-            <section class="line_1">
-                <h1><img src="./images/logo.png" alt="마켓비"></h1>
-                <div class="search-box">
-                    <input type="text" placeholder="지금 필요한 가구를 검색해보세요">
-                    <button type="submit"><img src="./images/search.png" alt="#"></button>
+            <div class="line_1">
+                <div class="logo"><h1><img src="./images/logo.png" alt="마켓비"></h1></div>
+                <div class="other">
+                    <button class="button" type="button">
+                        <img src="./images/search.png" alt="검색">
+                    </button>
+                    <a href="#">주문조회</a>
+                    <a href="#">마이페이지</a>
+                    <a href="#">장바구니</a>
                 </div>
-                <a href="#">주문조회</a>
-                <a href="#">마이페이지</a>
-                <a href="#">장바구니</a>
-            </section>
+            </div>
             <div class="line_2">
                 <a href="#">가구</a>
                 <a href="#">인테리어소품</a>
@@ -42,49 +43,45 @@
                     <img src="./images/main.png" alt="여유있는 소파베드 라이프">
                 </div>
                 <div class="category">
-                    <a href="#"><img src="./images/icon_01.png" alt="침실">침실</a>
-                    <a href="#"><img src="./images/icon_02.png" alt="거실">거실</a>
-                    <a href="#"><img src="./images/icon_03.png" alt="주방/다이닝">주방/다이닝</a>
-                    <a href="#"><img src="./images/icon_04.png" alt="드레스룸">드레스룸</a>
-                    <a href="#"><img src="./images/icon_05.png" alt="아이방">아이방</a>
-                    <a href="#"><img src="./images/icon_06.png" alt="스터디방">스터디방</a>
-                    <a href="#"><img src="./images/icon_07.png" alt="하우스/데코">하우스/데코</a>
-                    <a href="#"><img src="./images/icon_08.png" alt="홈오피스">홈오피스</a>
-                    <a href="#"><img src="./images/icon_09.png" alt="스페셜할인">스페셜할인</a>
+                    <a href="#">
+                        <img src="./images/icon_01.png" alt="침실">
+                        <span>침실</span>
+                    </a>
+                    <a href="#"><img src="./images/icon_02.png" alt="거실"><span>거실</span></a>
+                    <a href="#"><img src="./images/icon_03.png" alt="주방/다이닝"><span>주방/다이닝</span></a>
+                    <a href="#"><img src="./images/icon_04.png" alt="드레스룸"><span>드레스룸</span></a>
+                    <a href="#"><img src="./images/icon_05.png" alt="아이방"><span>아이방</span></a>
+                    <a href="#"><img src="./images/icon_06.png" alt="스터디방"><span>스터디방</span></a>
+                    <a href="#"><img src="./images/icon_07.png" alt="하우스/데코"><span>하우스/데코</span></a>
+                    <a href="#"><img src="./images/icon_08.png" alt="홈오피스"><span>홈오피스</span></a>
+                    <a href="#"><img src="./images/icon_09.png" alt="스페셜할인"><span>스페셜할인</span></a>
                 </div>
             </div>
             <div class="section2">
                 <div class="recommend_bg">
                     <h2>마켓비 추천 상품</h2>
                     <ul class="recommend_depth1">
+                        <li class="recommend_depth2"><a href="#"><span>리뷰순</span></a></li>
+                        <li class="recommend_depth2"><a href="#"><span>유용한</span></a></li>
+                        <li class="recommend_depth2"><a href="#"><span>예쁜</span></a></li>
                         <li class="recommend_depth2">
-                            <a href="#">리뷰순</a>
+                            <a class="bold" href="#"><em>오늘의 딜</em>
+                                <ul class="recommend_depth3">
+                                    <li><a href="#"><span>침실</span></a></li>
+                                    <li><a href="#"><em>거실</em></a></li>
+                                    <li><a href="#"><span>주방/다이닝</span></a></li>
+                                    <li><a href="#"><span>드레스룸</span></a></li>
+                                    <li><a href="#"><span>스터디방</span></a></li>
+                                    <li><a href="#"><span>하우스/데코</span></a></li>
+                                    <li><a href="#"><span>아이방</span></a></li>
+                                    <li><a href="#"><span>홈오피스</span></a></li>
+                                </ul>
+                            </a>
                         </li>
-                        <li class="recommend_depth2">
-                            <a href="#">유용한</a>
-                        </li>
-                        <li class="recommend_depth2">
-                            <a href="#">예쁜</a>
-                        </li>
-                        <li class="recommend_depth2">
-                            <a href="#">오늘의 딜</a>
-                            <ul>
-                                <li><a href="#">침실</a></li>
-                                <li><a href="#">거실</a></li>
-                                <li><a href="#">주방/다이닝</a></li>
-                                <li><a href="#">드레스룸</a></li>
-                                <li><a href="#">스터디방</a></li>
-                                <li><a href="#">하우스/데코</a></li>
-                                <li><a href="#">아이방</a></li>
-                                <li><a href="#">홈오피스</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">더보기</a>
+                        <li class="recommend_depth2 more">
+                            <a href="#"><span>더보기</span></a>
                         </li>
                     </ul>
-                </div>
-            </div>
             <div class="section3">
                 <div class="product_wrap1">
                     <div class="product">
@@ -304,11 +301,11 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">NEW ITEM</a>
+                            <a class="new_item" href="#">NEW ITEM</a>
                         </li>
                     </ul>
                 </div>
-                <div class="swiper container_wrap">
+                <div class="swiper-container_wrap">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="./images/bpro_001.png" alt="[특가~6/16 AM10]엠마 컴포트 천연가죽 소파 3인(3종/택1)">
@@ -367,21 +364,21 @@
                 <img src="./images/adbanner.png" alt="여름행사">
             </div>
             <section class="summer_event">
-                <div class="ad1">
+                <div class="ad_summer">
                     <a href="#">
                         <img src="./images/summer_br_001.png" alt="여름이불행사">
                         <p>덮는 순간 느껴지는 산뜻한 시원함</p>
                         <p>무더운 여름밤을 쾌적하게 지켜주는 여름이불</p>
                     </a>
                 </div>
-                <div class="ad2">
+                <div class="ad_summer">
                     <a href="#">
                         <img src="./images/summer_br_002.png" alt="여름베개행사">
                         <p>머리를 대는 순간 번지는 시원함</p>
                         <p>무더운 밤, 쾌적함을 선물하는 여름베개</p>
                     </a>
                 </div>
-                <div class="ad3">
+                <div class="ad_summer">
                     <a href="#">
                         <img src="./images/summer_br_003.png" alt="여름매트리스행사">
                         <p>열대야도 두렵지 않은 산뜻한 시원함</p>

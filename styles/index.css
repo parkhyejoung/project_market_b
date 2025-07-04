@@ -1,0 +1,218 @@
+.wrap {}
+.wrap header {
+    width: 100%; min-width: 1200px;
+    padding: 10px 165px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.wrap header .line_1 {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap header .line_1 .other {
+}
+.wrap header .line_1 .other h1 {
+}
+.wrap header .line_1 .other h1 img {}
+.wrap header .line_1 .other .button {}
+.wrap header .line_1 .other .button img {
+    width: 13px;
+    margin-right: 20px;
+}
+.wrap header .line_1 .other a {
+    font-size: 0.813rem;
+    margin-right: 20px;
+    color: #686868;
+}
+.wrap header .line_1 .other a:nth-of-type(3){
+    margin-right: 0;
+}
+.wrap header .line_2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-end;
+    justify-content: center;
+}
+.wrap header .line_2 a {
+    margin-right: 20px;
+}
+.wrap header .line_2 a:nth-of-type(6) {
+    margin-right: 0;
+}
+.wrap main .section1 {
+    padding-bottom: 41px;
+}
+.wrap main .section1 .main_ad {}
+.wrap main .section1 .main_ad img {}
+.wrap main .section1 .category {
+    display: flex;
+    justify-content:center;
+    gap: 55px;
+    padding-top: 50px;
+}
+.wrap main .section1 .category a {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.wrap main .section1 .category a img {
+    margin-bottom: 10px;
+}
+.wrap main .section1 .category a span {
+    font-size: 0.938rem;
+}
+.wrap main .section2 {
+    padding: 0 165px;
+}
+.wrap main .section2 .recommend_bg {
+}
+.wrap main .section2 .recommend_bg h2 {
+    font-size: 1.688rem;
+    padding-bottom: 15px;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 li.more {
+    position:absolute; right:0; top:0
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 {
+    justify-content: space-between;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 > a {
+    margin-right: 5px;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 span {
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 em {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 {
+/*     position: absolute;
+    top: 20px; left: 0; */
+    display: flex;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li {
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a {
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a span {
+    font-size: 0.75rem;
+    margin:20px 15px;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 ul.recommend_depth3 li a em {
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a span:nth-child(1) {
+    margin-left: 0;
+}
+.wrap main .section3 {}
+.wrap main .section3 .product_wrap1 {}
+.wrap main .section3 .product_wrap1 .product {}
+.wrap main .section3 .product_wrap1 .product img {}
+.wrap main .section3 .product_wrap1 .product img h3 {} 
+.wrap main .section3 .product_wrap1 .product .price_before {}
+.wrap main .section3 .product_wrap1 .product .price_before del {}
+.wrap main .section3 .product_wrap1 .product .percent {}
+.wrap main .section3 .product_wrap1 .product .price_after {}
+.wrap main .section3 .product_wrap1 .product .review {}
+.wrap main .section3 .product_wrap1 .product .review img {}
+.wrap main .section3 .product_wrap1 .product .review span {}
+.wrap main .section3 .product_wrap2 {}
+.wrap main .section3 .product_wrap2 .product {}
+.wrap main .section3 .product_wrap2 .product img {}
+.wrap main .section3 .product_wrap2 .product img h3 {} 
+.wrap main .section3 .product_wrap2 .product .price_before {}
+.wrap main .section3 .product_wrap2 .product .price_before del {}
+.wrap main .section3 .product_wrap2 .product .percent {}
+.wrap main .section3 .product_wrap2 .product .price_after {}
+.wrap main .section3 .product_wrap2 .product .review {}
+.wrap main .section3 .product_wrap2 .product .review img {}
+.wrap main .section3 .product_wrap2 .product .review span {}
+.wrap main .section3 .product_wrap3 {}
+.wrap main .section3 .product_wrap3 .product {}
+.wrap main .section3 .product_wrap3 .product img {}
+.wrap main .section3 .product_wrap3 .product img h3 {} 
+.wrap main .section3 .product_wrap3 .product .price_before {}
+.wrap main .section3 .product_wrap3 .product .price_before del {}
+.wrap main .section3 .product_wrap3 .product .percent {}
+.wrap main .section3 .product_wrap3 .product .price_after {}
+.wrap main .section3 .product_wrap3 .product .review {}
+.wrap main .section3 .product_wrap3 .product .review img {}
+.wrap main .section3 .product_wrap3 .product .review span {}
+.wrap main .section3 .product_wrap4 {}
+.wrap main .section3 .product_wrap4 .product {}
+.wrap main .section3 .product_wrap4 .product img {}
+.wrap main .section3 .product_wrap4 .product img h3 {} 
+.wrap main .section3 .product_wrap4 .product .price_before {}
+.wrap main .section3 .product_wrap4 .product .price_before del {}
+.wrap main .section3 .product_wrap4 .product .percent {}
+.wrap main .section3 .product_wrap4 .product .price_after {}
+.wrap main .section3 .product_wrap4 .product .review {}
+.wrap main .section3 .product_wrap4 .product .review img {}
+.wrap main .section3 .product_wrap4 .product .review span {}
+.wrap main .recommend_zone {}
+.wrap main .recommend_zone .recommend_title {}
+.wrap main .recommend_zone .recommend_title .tap {}
+.wrap main .recommend_zone .recommend_title .tap > li {}
+.wrap main .recommend_zone .recommend_title .tap > li a {}
+.wrap main .recommend_zone .recommend_title .tap > li ul {}
+.wrap main .recommend_zone .recommend_title .tap > li ul li {}
+.wrap main .recommend_zone .recommend_title .tap > li ul li a {}
+.wrap main .recommend_zone .recommend_title .tap li .new_item {}
+.wrap main .recommend_zone .swiper-container_wrap {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide img {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide h3 {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .percent {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before del {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_after {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review img {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review span {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span {}
+.wrap main .recommend_zone .swiper-button-prev {}
+.wrap main .recommend_zone .swiper-button-next {}
+.wrap main .summer_event {}
+.wrap main .summer_event .ad_summer {}
+.wrap main .summer_event .ad_summer a {}
+.wrap main .summer_event .ad_summer a img {}
+.wrap main .summer_event .ad_summer a p {}
+.wrap main .myhome {}
+.wrap main .myhome h3 {}
+.wrap main .myhome .myhome_grid {}
+.wrap main .myhome .myhome_grid .item1 {}
+.wrap main .myhome .myhome_grid .item1 img {}
+.wrap main .myhome .myhome_grid .item2 {}
+.wrap main .myhome .myhome_grid .item2 img {}
+.wrap main .myhome .myhome_grid .item2 p {}
+.wrap main .myhome .myhome_grid .item3 {}
+.wrap main .myhome .myhome_grid .item3 img {}
+.wrap main .myhome .myhome_grid .item4 {}
+.wrap main .myhome .myhome_grid .item4 img {}
+.wrap main .myhome .myhome_grid .item5 {}
+.wrap main .myhome .myhome_grid .item5 img {}
+.wrap footer .zone1 {}
+.wrap footer .zone1 em {}
+.wrap footer .zone1 em p {}
+.wrap footer .zone2 {}
+.wrap footer .zone2 em {}
+.wrap footer .zone2 a {}
+.wrap footer .zone3 {}
+.wrap footer .zone3 em {}
+.wrap footer .zone3 a {}
+.wrap footer .zone4 {}
+.wrap footer .zone4 em {}
+.wrap footer .zone4 p {}
+.wrap footer .zone5 {}
+.wrap footer .zone5 > em {}
+.wrap footer .zone5 em {}
+.wrap footer .zone5 p {}
+.wrap footer .zone5 > p {}
