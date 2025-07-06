@@ -102,7 +102,6 @@
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a {
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a span {
-    font-size: 0.75rem;
     margin:20px 15px;
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 ul.recommend_depth3 li a em {
@@ -110,15 +109,27 @@
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a span:nth-child(1) {
     margin-left: 0;
 }
-.wrap main .section3 {}
+.wrap main .section3 {
+    display: flex;
+    gap:47px;
+    background-color: #F5F5F5;
+}
 .wrap main .section3 .product_wrap1 {}
 .wrap main .section3 .product_wrap1 .product {}
 .wrap main .section3 .product_wrap1 .product img {}
-.wrap main .section3 .product_wrap1 .product img h3 {} 
+.wrap main .section3 .product_wrap1 .product .title_p {
+    font-size: 0.938rem;
+} 
 .wrap main .section3 .product_wrap1 .product .price_before {}
-.wrap main .section3 .product_wrap1 .product .price_before del {}
-.wrap main .section3 .product_wrap1 .product .percent {}
-.wrap main .section3 .product_wrap1 .product .price_after {}
+.wrap main .section3 .product_wrap1 .product .price_before del {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap1 .product .percent {
+    font-size: 1.063rem;
+}
+.wrap main .section3 .product_wrap1 .product .price_after {
+    font-size: 1.063rem;
+}
 .wrap main .section3 .product_wrap1 .product .review {}
 .wrap main .section3 .product_wrap1 .product .review img {}
 .wrap main .section3 .product_wrap1 .product .review span {}
