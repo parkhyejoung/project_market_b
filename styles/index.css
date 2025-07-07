@@ -66,6 +66,7 @@
     padding: 0 165px;
 }
 .wrap main .section2 .recommend_bg {
+    padding-bottom: 40px;
 }
 .wrap main .section2 .recommend_bg h2 {
     font-size: 1.688rem;
@@ -93,9 +94,12 @@
     text-decoration: underline;
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 {
-/*     position: absolute;
-    top: 20px; left: 0; */
+    position: absolute;
+    top: 20px; left: 0;
     display: flex;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-size: 0.75rem;
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li {
 }
@@ -105,125 +109,430 @@
     margin:20px 15px;
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 ul.recommend_depth3 li a em {
+    margin-right: 15px;
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 li a span:nth-child(1) {
     margin-left: 0;
 }
 .wrap main .section3 {
+    width: 1920px;
+    height: 2000px;
     display: flex;
-    gap:47px;
+    flex-flow: row wrap;
+    justify-content:center;
     background-color: #F5F5F5;
+    padding-top: 50px;
+    border-radius: 50px;
 }
-.wrap main .section3 .product_wrap1 {}
+.wrap main .section3 .product_wrap1 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
 .wrap main .section3 .product_wrap1 .product {}
 .wrap main .section3 .product_wrap1 .product img {}
-.wrap main .section3 .product_wrap1 .product .title_p {
+.wrap main .section3 .product_wrap1 .product h3 {
+    padding: 10px 0;
     font-size: 0.938rem;
 } 
-.wrap main .section3 .product_wrap1 .product .price_before {}
+.wrap main .section3 .product_wrap1 .product .price_before {
+    font-size: 0.813rem;
+}
 .wrap main .section3 .product_wrap1 .product .price_before del {
     font-size: 0.813rem;
 }
 .wrap main .section3 .product_wrap1 .product .percent {
     font-size: 1.063rem;
+    font-weight: 700;
 }
 .wrap main .section3 .product_wrap1 .product .price_after {
     font-size: 1.063rem;
+    font-weight: 700;
 }
-.wrap main .section3 .product_wrap1 .product .review {}
+.wrap main .section3 .product_wrap1 .product .review {
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
 .wrap main .section3 .product_wrap1 .product .review img {}
 .wrap main .section3 .product_wrap1 .product .review span {}
-.wrap main .section3 .product_wrap2 {}
+.wrap main .section3 .product_wrap2 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
 .wrap main .section3 .product_wrap2 .product {}
 .wrap main .section3 .product_wrap2 .product img {}
-.wrap main .section3 .product_wrap2 .product img h3 {} 
-.wrap main .section3 .product_wrap2 .product .price_before {}
-.wrap main .section3 .product_wrap2 .product .price_before del {}
-.wrap main .section3 .product_wrap2 .product .percent {}
-.wrap main .section3 .product_wrap2 .product .price_after {}
-.wrap main .section3 .product_wrap2 .product .review {}
+.wrap main .section3 .product_wrap2 .product h3 {
+    padding: 10px 0;
+    font-size: 0.938rem;
+} 
+.wrap main .section3 .product_wrap2 .product .price_before {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap2 .product .price_before del {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap2 .product .percent {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap2 .product .price_after {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap2 .product .review {
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
 .wrap main .section3 .product_wrap2 .product .review img {}
 .wrap main .section3 .product_wrap2 .product .review span {}
-.wrap main .section3 .product_wrap3 {}
+.wrap main .section3 .product_wrap3 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
 .wrap main .section3 .product_wrap3 .product {}
 .wrap main .section3 .product_wrap3 .product img {}
-.wrap main .section3 .product_wrap3 .product img h3 {} 
-.wrap main .section3 .product_wrap3 .product .price_before {}
-.wrap main .section3 .product_wrap3 .product .price_before del {}
-.wrap main .section3 .product_wrap3 .product .percent {}
-.wrap main .section3 .product_wrap3 .product .price_after {}
-.wrap main .section3 .product_wrap3 .product .review {}
+.wrap main .section3 .product_wrap3 .product h3 {
+    padding: 10px 0;
+    font-size: 0.938rem;
+} 
+.wrap main .section3 .product_wrap3 .product .price_before {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap3 .product .price_before del {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap3 .product .percent {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap3 .product .price_after {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap3 .product .review {
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
 .wrap main .section3 .product_wrap3 .product .review img {}
 .wrap main .section3 .product_wrap3 .product .review span {}
-.wrap main .section3 .product_wrap4 {}
+.wrap main .section3 .product_wrap4 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
 .wrap main .section3 .product_wrap4 .product {}
 .wrap main .section3 .product_wrap4 .product img {}
-.wrap main .section3 .product_wrap4 .product img h3 {} 
-.wrap main .section3 .product_wrap4 .product .price_before {}
-.wrap main .section3 .product_wrap4 .product .price_before del {}
-.wrap main .section3 .product_wrap4 .product .percent {}
-.wrap main .section3 .product_wrap4 .product .price_after {}
-.wrap main .section3 .product_wrap4 .product .review {}
+.wrap main .section3 .product_wrap4 .product h3 {
+    padding: 10px 0;
+    font-size: 0.938rem;
+} 
+.wrap main .section3 .product_wrap4 .product .price_before {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap4 .product .price_before del {
+    font-size: 0.813rem;
+}
+.wrap main .section3 .product_wrap4 .product .percent {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap4 .product .price_after {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+.wrap main .section3 .product_wrap4 .product .review {
+    padding-top: 10px;
+    font-size: 0.875rem;
+}
 .wrap main .section3 .product_wrap4 .product .review img {}
 .wrap main .section3 .product_wrap4 .product .review span {}
-.wrap main .recommend_zone {}
-.wrap main .recommend_zone .recommend_title {}
-.wrap main .recommend_zone .recommend_title .tap {}
+.wrap main .recommend_zone {
+    padding: 88px 160px;
+}
+.wrap main .recommend_zone .recommend_title .menu_title {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap main .recommend_zone .recommend_title .menu_title h2 {
+    font-size: 1.688rem;
+}
+.wrap main .recommend_zone .recommend_title .menu_tap {
+}
+.wrap main .recommend_zone .recommend_title .menu_tap .tap_title {
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+.wrap main .recommend_zone .recommend_title .menu_tap .tap_title_n {
+    font-size: 1.25rem;
+    margin-left: 27px;
+}
 .wrap main .recommend_zone .recommend_title .tap > li {}
-.wrap main .recommend_zone .recommend_title .tap > li a {}
-.wrap main .recommend_zone .recommend_title .tap > li ul {}
-.wrap main .recommend_zone .recommend_title .tap > li ul li {}
-.wrap main .recommend_zone .recommend_title .tap > li ul li a {}
+.wrap main .recommend_zone .recommend_title .tap li > a {
+    font-size: 0.75rem;
+}
+.wrap main .recommend_zone .recommend_title .tap li > .point {
+    text-decoration:underline;
+    font-weight: 600;
+}
+.wrap main .recommend_zone .recommend_title .tap > li ul {
+    display: flex;
+    justify-content:flex-end;
+    gap: 15px;
+}
+.wrap main .recommend_zone .recommend_title .tap > li ul li {
+}
+.wrap main .recommend_zone .recommend_title .tap > li ul li a {
+}
 .wrap main .recommend_zone .recommend_title .tap li .new_item {}
-.wrap main .recommend_zone .swiper-container_wrap {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide {}
+.wrap main .recommend_zone .swiper-container_wrap {
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper {
+    display: flex;
+    gap: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide {
+    width:500px;
+    height: 638px;
+}
 .wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide img {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide h3 {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .percent {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before del {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_after {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .percent {
+    font-size: 1rem;
+    color: #686868;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before {
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before del {
+    font-size: 1rem;
+    color: #686868;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_after {
+    font-size: 1.063rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 .wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review img {}
 .wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review span {}
 .wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span {}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span:nth-of-type(1) {
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    padding: 5px 5px;
+    font-size: 0.75rem;
+}
+.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span:nth-of-type(2) {
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    padding: 5px 5px;
+    font-size: 0.75rem;
+}
 .wrap main .recommend_zone .swiper-button-prev {}
 .wrap main .recommend_zone .swiper-button-next {}
-.wrap main .summer_event {}
+.wrap main .summer_title {
+    padding: 80px 160px 10px 160px;
+    font-size: 1.563rem;
+    font-weight: 600;
+}
+.wrap main .summer_event {
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    gap: 40px;
+}
 .wrap main .summer_event .ad_summer {}
 .wrap main .summer_event .ad_summer a {}
-.wrap main .summer_event .ad_summer a img {}
-.wrap main .summer_event .ad_summer a p {}
-.wrap main .myhome {}
-.wrap main .myhome h3 {}
-.wrap main .myhome .myhome_grid {}
-.wrap main .myhome .myhome_grid .item1 {}
+.wrap main .summer_event .ad_summer a img {
+}
+.wrap main .summer_event .ad_summer a p {
+    position: relative;
+    top: -79px;
+    left: 15px;
+    font-size: 1rem;
+}
+.wrap main .myhome {
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.wrap main .myhome h3 {
+    font-size: 1.688rem;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.wrap main .myhome .myhome_grid {
+    display: grid; 
+    gap: 20px;
+    grid-template-areas:
+    'item1 item2 item4'
+    'item1 item2 item4'
+    'item1 item3 item4'
+    'item1 item3 item5'
+    'item1 item3 item5'
+    ;
+}
+.wrap main .myhome .myhome_grid .item1 {
+    position: relative; 
+    grid-area: item1;
+}
 .wrap main .myhome .myhome_grid .item1 img {}
-.wrap main .myhome .myhome_grid .item2 {}
-.wrap main .myhome .myhome_grid .item2 img {}
-.wrap main .myhome .myhome_grid .item2 p {}
-.wrap main .myhome .myhome_grid .item3 {}
-.wrap main .myhome .myhome_grid .item3 img {}
-.wrap main .myhome .myhome_grid .item4 {}
-.wrap main .myhome .myhome_grid .item4 img {}
-.wrap main .myhome .myhome_grid .item5 {}
-.wrap main .myhome .myhome_grid .item5 img {}
-.wrap footer .zone1 {}
-.wrap footer .zone1 em {}
-.wrap footer .zone1 em p {}
-.wrap footer .zone2 {}
-.wrap footer .zone2 em {}
+.wrap main .myhome .myhome_grid .item1 .item1_s1 {
+    position: absolute;
+    left: 210px;
+    top: 200px;
+}
+.wrap main .myhome .myhome_grid .item1 .item1_s2 {
+    position: absolute;
+    left: 500px;
+    top: 390px;
+}
+.wrap main .myhome .myhome_grid .item1 .item1_s3 {
+    position: absolute;
+    left: 180px;
+    top: 490px;
+}
+.wrap main .myhome .myhome_grid .item1 .item1_s4 {
+    position: absolute;
+    left: 350px;
+    top: 570px;
+}
+.wrap main .myhome .myhome_grid .item1 .item1_s5 {
+    position: absolute;
+    left: 367px;
+    top: 599px;
+}
+.wrap main .myhome .myhome_grid .item2 {
+    position: relative;
+    grid-area: item2;
+}
+.wrap main .myhome .myhome_grid .item2 .item2_s1 {
+    
+}
+.wrap main .myhome .myhome_grid .item2 p {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    color: #fff;
+    font-size: 0.938rem;
+}
+.wrap main .myhome .myhome_grid .item2 p span {
+    color: #fff;
+    font-size: 1.25rem;
+    padding-top: 2px;
+}
+.wrap main .myhome .myhome_grid .item3 {
+    position: relative;
+    grid-area: item3;
+}
+.wrap main .myhome .myhome_grid .item3 .item3_s1 {
+}
+.wrap main .myhome .myhome_grid .item3 .item3_s2 {
+    position: absolute;
+    top: 104px;
+    left: 38px;
+}
+.wrap main .myhome .myhome_grid .item3 .item3_s3 {
+    position: absolute;
+    top: 227px;
+    left: 302px;
+}
+.wrap main .myhome .myhome_grid .item4 {
+    position: relative;
+    grid-area: item4;
+}
+.wrap main .myhome .myhome_grid .item4 .item4_s1 {}
+.wrap main .myhome .myhome_grid .item4 .item4_s2 {
+    position: absolute;
+    top: 172px;
+    left: 37px;
+}
+.wrap main .myhome .myhome_grid .item4 .item4_s3 {
+    position: absolute;
+    top: 101px;
+    left: 170px;
+}
+.wrap main .myhome .myhome_grid .item5 {
+    position: relative;
+    grid-area: item5;
+}
+.wrap main .myhome .myhome_grid .item5 .item5_s1 {}
+.wrap main .myhome .myhome_grid .item5 .item5_s2 {
+    position: absolute;
+    top: 80px;
+    left: 108px;
+}
+.wrap main .myhome .myhome_grid .item5 .item5_s3 {
+    position: absolute;
+    top: 240px;
+    left: 283px;
+}
+.wrap footer {
+    padding: 60px 160px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.wrap footer .zone1 {
+    text-align: left;
+}
+.wrap footer .zone1 em {
+    font-size: 1rem;
+    font-weight: 600;
+}
+.wrap footer .zone1 p {
+}
+.wrap footer .zone2 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+.wrap footer .zone2 em {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 .wrap footer .zone2 a {}
-.wrap footer .zone3 {}
-.wrap footer .zone3 em {}
+.wrap footer .zone3 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+.wrap footer .zone3 em {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 .wrap footer .zone3 a {}
-.wrap footer .zone4 {}
-.wrap footer .zone4 em {}
+.wrap footer .zone4 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+.wrap footer .zone4 em {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 .wrap footer .zone4 p {}
-.wrap footer .zone5 {}
-.wrap footer .zone5 > em {}
-.wrap footer .zone5 em {}
+.wrap footer .zone5 {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+}
+.wrap footer .zone5 .cs_center {
+    font-size: 1.25rem;
+    font-weight: 600;   
+}
+.wrap footer .zone5 .number {
+    font-size: 1.3rem;
+    font-weight: 700;  
+}
 .wrap footer .zone5 p {}
 .wrap footer .zone5 > p {}
