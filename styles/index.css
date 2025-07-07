@@ -488,8 +488,10 @@
 .wrap footer .zone1 em {
     font-size: 1rem;
     font-weight: 600;
+    line-height: 150%;
 }
 .wrap footer .zone1 p {
+    line-height: 150%;
 }
 .wrap footer .zone2 {
     display: flex;
