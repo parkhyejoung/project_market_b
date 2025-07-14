@@ -301,7 +301,7 @@
 .wrap main .recommend_zone .recommend_title .tap li .new_item {}
 .wrap main .recommend_zone .swiper-container {
     width: 100%; 
-    height: 860px;
+    height: 680px;
 }
 .wrap main .recommend_zone .swiper-container .swiper-wrapper {
     display: flex;
@@ -312,7 +312,7 @@
     height: 731px;
 }
 .wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide {
-    width:500px;
+    width: 500px;
     height: 638px;
 }
 .wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide img {}
