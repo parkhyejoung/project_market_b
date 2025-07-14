@@ -25,6 +25,11 @@
     margin-right: 20px;
     color: #686868;
 }
+.wrap header .line_1 .other a:hover {
+    color: #000;
+    font-weight: 500;
+    transition: 0.5s;
+}
 .wrap header .line_1 .other a:nth-of-type(3){
     margin-right: 0;
 }
@@ -36,6 +41,10 @@
 }
 .wrap header .line_2 a {
     margin-right: 20px;
+}
+.wrap header .line_2 a:hover {
+    font-weight: 700;
+    transition: 0.3s;
 }
 .wrap header .line_2 a:nth-of-type(6) {
     margin-right: 0;
@@ -58,6 +67,10 @@
 }
 .wrap main .section1 .category a img {
     margin-bottom: 10px;
+}
+.wrap main .section1 .category a img:hover {
+    opacity: 50%;
+    transition: 0.5s;
 }
 .wrap main .section1 .category a span {
     font-size: 0.938rem;
@@ -286,53 +299,57 @@
 .wrap main .recommend_zone .recommend_title .tap > li ul li a {
 }
 .wrap main .recommend_zone .recommend_title .tap li .new_item {}
-.wrap main .recommend_zone .swiper-container_wrap {
+.wrap main .recommend_zone .swiper-container {
+    width: 100%; 
+    height: 860px;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper {
     display: flex;
     gap: 45px;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 1920px; 
+    height: 731px;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide {
     width:500px;
     height: 638px;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide img {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide h3 {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide img {}
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide h3 {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1rem;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .percent {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .percent {
     font-size: 1rem;
     color: #686868;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_before {
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_before del {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_before del {
     font-size: 1rem;
     color: #686868;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .price_after {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_after {
     font-size: 1.063rem;
     font-weight: 700;
     padding-bottom: 12px;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review img {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .review span {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon {}
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span:nth-of-type(1) {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review img {}
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review span {}
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon {}
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon span:nth-of-type(1) {
     border: 1px solid #d9d9d9;
     background-color: #d9d9d9;
     padding: 5px 5px;
     font-size: 0.75rem;
 }
-.wrap main .recommend_zone .swiper-container_wrap .swiper-wrapper .swiper-slide .coupon span:nth-of-type(2) {
+.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon span:nth-of-type(2) {
     border: 1px solid #d9d9d9;
     background-color: #d9d9d9;
     padding: 5px 5px;
