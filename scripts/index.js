@@ -1,7 +1,7 @@
-const slide = new Swiper('.swiper-container .swiper-wrapper',{
+const recommendslide = new Swiper('.recommend',{
+    loop: true,
     navigation: {
-        loop: true,
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.recommend .swiper-button-next',
+        prevEl: '.recommend .swiper-button-prev',
     },
 });
