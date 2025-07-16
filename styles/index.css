@@ -102,9 +102,13 @@
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 span {
 }
-.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 em {
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 span:hover {
     font-weight: 600;
     text-decoration: underline;
+}
+.wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 em:hover {
+/*     font-weight: 600;
+/*     text-decoration: underline; */ 
 }
 .wrap main .section2 .recommend_bg .recommend_depth1 .recommend_depth2 .recommend_depth3 {
     position: absolute;
@@ -272,91 +276,122 @@
     font-size: 1.688rem;
 }
 .wrap main .recommend_zone .recommend_title .menu_tap {
+    display: flex;
+    justify-content: flex-end;
+    gap: 27px;
+}
+.wrap main .recommend_zone .recommend_title .menu_tap a:hover {
+    text-decoration: underline;
 }
 .wrap main .recommend_zone .recommend_title .menu_tap .tap_title {
     font-size: 1.25rem;
-    text-decoration: underline;
+/*     text-decoration: underline; */
 }
 .wrap main .recommend_zone .recommend_title .menu_tap .tap_title_n {
     font-size: 1.25rem;
-    margin-left: 27px;
 }
-.wrap main .recommend_zone .recommend_title .tap > li {}
+.wrap main .recommend_zone .recommend_title .tap > li {
+    padding-top: 8px;
+}
 .wrap main .recommend_zone .recommend_title .tap li > a {
-    font-size: 0.75rem;
-}
-.wrap main .recommend_zone .recommend_title .tap li > .point {
-    text-decoration:underline;
-    font-weight: 600;
+    font-size: 1rem;
 }
 .wrap main .recommend_zone .recommend_title .tap > li ul {
     display: flex;
     justify-content:flex-end;
     gap: 15px;
 }
+.wrap main .recommend_zone .recommend_title .tap .tap_depth a:hover {
+    text-decoration:underline;
+    font-weight: 600;
+}
+.wrap .recommend {
+}
+.wrap .recommend .swiper-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.wrap .recommend .swiper-wrapper .s1,
+.wrap .recommend .swiper-wrapper .s2,
+.wrap .recommend .swiper-wrapper .s3 {
+    width: 500px;
+    height: 638px;
+}
+.wrap .recommend .swiper-wrapper .s1 a,
+.wrap .recommend .swiper-wrapper .s2 a,
+.wrap .recommend .swiper-wrapper .s3 a {}
+.wrap .recommend .swiper-wrapper .s1 a img,
+.wrap .recommend .swiper-wrapper .s2 a img,
+.wrap .recommend .swiper-wrapper .s3 a img {}
+.wrap .recommend .swiper-wrapper .s1 a h3,
+.wrap .recommend .swiper-wrapper .s2 a h3,
+.wrap .recommend .swiper-wrapper .s3 a h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+.wrap .recommend .swiper-wrapper .s1 a .percent,
+.wrap .recommend .swiper-wrapper .s2 a .percent,
+.wrap .recommend .swiper-wrapper .s3 a .percent {
+    font-size: 1rem;
+    color: #686868;
+}
+.wrap .recommend .swiper-wrapper .s1 a .price_before,
+.wrap .recommend .swiper-wrapper .s2 a .price_before,
+.wrap .recommend .swiper-wrapper .s3 a .price_before {}
+.wrap .recommend .swiper-wrapper .s1 a .price_before del,
+.wrap .recommend .swiper-wrapper .s2 a .price_before del,
+.wrap .recommend .swiper-wrapper .s3 a .price_before del {
+    font-size: 1rem;
+    color: #686868;
+}
+.wrap .recommend .swiper-wrapper .s1 a .price_after,
+.wrap .recommend .swiper-wrapper .s2 a .price_after,
+.wrap .recommend .swiper-wrapper .s3 a .price_after {
+    font-size: 1.063rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+.wrap .recommend .swiper-wrapper .s1 a .review, 
+.wrap .recommend .swiper-wrapper .s2 a .review, 
+.wrap .recommend .swiper-wrapper .s3 a .review {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrap .recommend .swiper-wrapper .s1 a .review img,
+.wrap .recommend .swiper-wrapper .s2 a .review img, 
+.wrap .recommend .swiper-wrapper .s3 a .review img {}
+.wrap .recommend .swiper-wrapper .s1 a .review span, 
+.wrap .recommend .swiper-wrapper .s2 a .review span, 
+.wrap .recommend .swiper-wrapper .s3 a .review span {
+}
+.wrap .recommend .swiper-wrapper .s1 a .coupon, 
+.wrap .recommend .swiper-wrapper .s2 a .coupon, 
+.wrap .recommend .swiper-wrapper .s3 a .coupon {
+
+}
+.wrap .recommend .swiper-wrapper .s1 a .coupon img,
+.wrap .recommend .swiper-wrapper .s2 a .coupon img, 
+.wrap .recommend .swiper-wrapper .s3 a .coupon img {}
+.wrap .recommend .swiper-wrapper .s1 a .coupon span, 
+.wrap .recommend .swiper-wrapper .s2 a .coupon span, 
+.wrap .recommend .swiper-wrapper .s3 a .coupon span {
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+    padding: 5px 5px;
+    font-size: 0.75rem;
+}
+
 .wrap main .recommend_zone .recommend_title .tap > li ul li {
 }
 .wrap main .recommend_zone .recommend_title .tap > li ul li a {
 }
 .wrap main .recommend_zone .recommend_title .tap li .new_item {}
-.wrap main .recommend_zone .swiper-container {
-    width: 100%; 
-    height: 680px;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper {
-    display: flex;
-    gap: 45px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 1920px; 
-    height: 731px;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide {
-    width: 500px;
-    height: 638px;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide img {}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1rem;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .percent {
-    font-size: 1rem;
-    color: #686868;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_before {
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_before del {
-    font-size: 1rem;
-    color: #686868;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .price_after {
-    font-size: 1.063rem;
-    font-weight: 700;
-    padding-bottom: 12px;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review {
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review img {}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .review span {}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon {}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon span:nth-of-type(1) {
-    border: 1px solid #d9d9d9;
-    background-color: #d9d9d9;
-    padding: 5px 5px;
-    font-size: 0.75rem;
-}
-.wrap main .recommend_zone .swiper-container .swiper-wrapper .swiper-slide .coupon span:nth-of-type(2) {
-    border: 1px solid #d9d9d9;
-    background-color: #d9d9d9;
-    padding: 5px 5px;
-    font-size: 0.75rem;
-}
-.wrap main .recommend_zone .swiper-button-prev {}
-.wrap main .recommend_zone .swiper-button-next {}
+
+
+
 .wrap main .summer_title {
     padding: 80px 160px 10px 160px;
     font-size: 1.563rem;
